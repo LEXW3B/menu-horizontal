@@ -1,0 +1,31 @@
+
+#menu ul li {
+    background-color: black;
+    color: white;
+    float: left;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    position: relative;
+}
+#menu ul li:hover{
+    background-color: rgb(44, 41, 41);
+    color: yellow;
+}
+#menu ul{
+    padding: 0;
+}
+#menu ul ul{
+    display: none;
+}
+#menu ul li:hover > ul{
+    display: block;
+}
+#menu ul ul ul{
+    margin-left: 152px;
+    position: absolute;
+    top: 0px;
+}
