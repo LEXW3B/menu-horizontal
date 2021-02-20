@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu vertical 01</title>
+    <!--icones-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!--code jquery-->
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class=" btnAbre"><span class="material-icons">
+        menu_open
+        </span></div>   
+    <nav class="menuLateral">
+        <div class="titulo">Meu Site<span class="material-icons btnFecha">
+            close
+            </span></div>
+        <ul>
+            <li><a href="#">Norte</a></li>
+            <li><a href="#" class="nordeste">Nordeste <span class="material-icons seta1">
+                arrow_right
+                </span></a>
+                <ul class="itensNordeste">
+                    <li>Pernambuco</li>
+                    <li>Maranhão</li>
+                    <li>Sergipe</li>
+                    <li>Bahia</li>
+                </ul>
+            </li>
+            <li><a href="#">Centro-Oeste</a></li>
+            <li><a href="#"class="sudeste">Sudeste <span class="material-icons seta2">
+                arrow_right
+                </span></a>
+                <ul class="itensSudeste">
+                    <li>Minas Gerais</li>
+                    <li>Rio de Janeiro</li>
+                    <li>São Paulo</li>
+                    <li>Espírito Santo</li>
+                </ul>
+            </li>
+            <li><a href="#">Sul</a></li>
+        </ul>
+    </nav>
+    <script src="javascript.js"></script>
+</body>
+</html>
