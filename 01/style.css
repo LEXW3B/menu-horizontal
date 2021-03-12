@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: gray;
+}
+.menu ul{
+    max-width: 800px;
+    list-style-type: none;
+    padding: 0;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    color: yellow;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 2s;
+}.menu ul li a:hover{
+    background-color: rgb(153, 152, 152);
+    color: greenyellow;
+}
