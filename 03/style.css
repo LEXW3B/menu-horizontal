@@ -1,0 +1,38 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    line-height: 250px;
+    text-align: center;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background: red;
+}
+.fotoDireita{
+    float: right;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.fotoEsquerda{
+    float: left;
+}
+
+footer{
+    bottom: -178px;
+    width: 100%;
+    height: 40px;
+    background: rgb(94, 93, 93);
+    color: orange;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    display: block;
+}
