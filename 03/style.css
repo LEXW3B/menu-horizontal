@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     line-height: 250px;
@@ -11,6 +12,33 @@ header{
     height: 250px;
     position: relative;
     background: red;
+}
+nav{
+    position: relative;
+    top: -250px;
+    
+}
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 30px;
+    
+}
+nav ul li{
+    display: inline;
+    padding: 55px;
+}
+nav ul{
+    list-style-type: none
+    ;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    text-align: left;
 }
 .fotoDireita{
     float: right;
