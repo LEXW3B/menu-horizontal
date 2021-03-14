@@ -55,6 +55,11 @@ h3{
 .fotoEsquerda{
     float: left;
 }
+.fotoSumerios{
+    float: left;
+    height: 100px;
+    width: 75px;
+}
 
 .estiloLink{
     text-transform: uppercase;
@@ -64,6 +69,15 @@ h3{
     font-size: 30px;
 }.estiloLink:hover{
     color: brown;
+}
+.estiloLinks{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    font-size: 15px;
+}.estiloLinks:hover{
+    color: green;
 }
 
 footer{
