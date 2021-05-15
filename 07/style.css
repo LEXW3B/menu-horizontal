@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+nav{background-color: black;}
+nav ul{
+    max-width: 800px;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: aliceblue;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .4s;
+}
+nav ul li a:hover{
+    background-color: yellow;
+    color: red;
+}
+nav ul li a:last-child a{
+    float: right;
+}
