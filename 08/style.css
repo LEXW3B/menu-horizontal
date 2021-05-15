@@ -1,0 +1,53 @@
+/*conf. iniciais*/
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}body{background-color: blue;}
+/*inicio menu*/
+.menu{
+    background-color: brown;
+}
+.menu ul{
+    max-width: 800px;
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    color: gold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .4s;
+}
+.menu ul li a:hover{
+    background-color: violet;
+    color: blue;
+}/*final do menu*/
+
+/*corpo*/
+.div1{
+    background-color: yellow;
+    float: left;
+    padding: 50px;
+    margin-top: 30px;
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px, 50px, 50px, 50px;
+}
+.div2{
+    background-color: green;
+    float:right;
+    padding: 50px;
+    margin-top: 30px;
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+}
+.div3{    
+    background-color: blue;
+}
