@@ -1,0 +1,43 @@
+/*conf. inicial*/
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}body{background-color: rgb(31, 160, 59);}
+/*menu*/
+.menu{
+    margin-top: -20px;
+    background-color: #ccc;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: background .4s;
+    color: black;
+}.menu ul li a:hover{
+    background-color: rgb(126, 125, 125);
+    color: gold;
+}
+/*corpo*/
+.txt1{
+    float: left;
+    width: 300px;
+    border: 2px solid red;
+    margin: 20px;
+    background-color: aqua;
+}
+.txt2{
+    float: right;
+    width: 300px;
+    border: 2px solid blue;
+    margin: 20px;
+    background-color: gold;
+}
